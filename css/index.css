@@ -2801,6 +2801,9 @@ blockquote footer cite:before {
   margin: 0 auto;
   padding: 2rem 15px;
   max-width: 1200px;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
 }
 #recent-posts {
   width: 75%;
@@ -4332,7 +4335,7 @@ img {
   padding: 0.3rem 0 0.8em;
 }
 .has-jax {
-  overflow: auto;
+  overflow: visible;
 }
 figure.gallery-group {
   position: relative;
